@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+body {
+    font-family: Open Sans;
+}
+
+
+:root {
+    --white: #fff;
+    --pink: #e83e8c;
+    --info: #17a2b8;
+}
+.bg-pink {
+    background-color: var(--pink);
+}
+.text-info {
+    color: var(--white);
+}
+.bg-info {
+    background-color: var(--info);
+}
+.nav-item {
+    font-size: 16px;
+    color: #fff;
+}
+.navbarNav {
+    color: #fff;
+}
+
+.text-center {
+    font-size: 3.75em;
+    font-weight: 700;
+    color: #707070;
+}
+
+.card-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #373a3c;
+    
+}
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373a3c;
+}
+
+.list-group-item {
+    font-size: 11px;
+    font-weight: 400;
+    color: #373a3c;
+}
+
+.card-link {
+    font-size: 11px;
+    font-weight: 400;
+}
